@@ -2,10 +2,10 @@ package com.crisatori;
 
 public class Moneda {
     private String simbolo;
-    //valor con referencia al dolar.
     private double valor;
+    //valor con referencia al dolar.
 
-    public Moneda(String simbolo, double valor){
+    public Moneda(String simbolo, double valor) {
         this.simbolo = simbolo;
         this.valor = valor;
     }
