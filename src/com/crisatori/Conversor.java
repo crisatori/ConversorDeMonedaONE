@@ -1,7 +1,8 @@
 package com.crisatori;
 
 public class Conversor {
-    private final double tasaDeReferncia = 0.018;
+    private final double tasaDOPUSD = 55.12; //cantidad de pesos que me dan por 1 dolar.
+    private final double tasaMXNUSD = 17.12; //...mexicanos
 
     public void convertirMonedas(int cantidad) {
         System.out.println((cantidad * tasaDeReferncia));
